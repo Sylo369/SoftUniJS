@@ -1,0 +1,18 @@
+p.pmclass{
+    font-size: 22px;
+    color: darkolivegreen;
+}
+
+div#content{
+    padding: 1px;
+    background-color: burlywood;
+}
+
+input[type="text"].textinput{
+border-color: rgba(10, 204, 136, 0.925);
+padding: 15px;
+}
+
+p.pmclass2{
+    font-style: italic;
+}
