@@ -1,0 +1,13 @@
+nav a{
+    font-size: 18px;
+    font-style: italic;
+}
+
+div > #serviceDetails{
+    background-color: khaki;
+    font-weight: bold;
+}
+
+section  h1 span{
+    color:red
+}
