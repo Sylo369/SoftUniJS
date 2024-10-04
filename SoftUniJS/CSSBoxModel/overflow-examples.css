@@ -1,0 +1,17 @@
+div{
+    border: 3px solid #000;
+    max-height: 200px;
+    max-width: 300px;
+}
+
+.visible{
+    overflow: visible;
+}
+
+.hidden{
+    overflow: hidden;
+}
+
+.scroll{
+    overflow: scroll;
+}
