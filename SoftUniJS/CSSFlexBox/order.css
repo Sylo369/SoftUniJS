@@ -1,0 +1,40 @@
+.flex-container {
+    width: 400px;
+    padding: 1em;
+    border: 2px solid blue;
+    display: flex;
+    align-items: flex-start;
+}
+.flex-item{
+background-color: #eee;
+padding: 20px;
+border: 2px solid #000;
+}
+
+.customer-order{
+    display: flex;
+}
+
+.customer-order .flex-item:nth-child(1){
+    order: 5;
+}
+
+.customer-order .flex-item:nth-child(2){
+    order: 3;
+}
+
+.customer-order .flex-item:nth-child(3){
+    order: 1;
+}
+
+.customer-order .flex-item:nth-child(4){
+    order: 6;
+}
+
+.customer-order .flex-item:nth-child(5){
+    order: 2;
+}
+
+.customer-order .flex-item:nth-child(6){
+    order: 4;
+}
