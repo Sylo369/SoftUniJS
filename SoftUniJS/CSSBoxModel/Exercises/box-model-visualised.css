@@ -1,0 +1,38 @@
+.box-model { 
+display:block;
+box-sizing: border-box;
+margin: 50px auto 50px auto;
+}
+
+.box-model div {
+    border: dashed 1px;
+    margin: 35px;
+    
+}
+
+.absolute{
+position: absolute;
+margin-top: 0px;
+margin-left: 15px;
+}
+
+
+
+
+.box-model .content {
+    background-color: lightskyblue;
+    text-align: center;
+   
+}
+
+.box-model .padding {
+    background-color: #77e47c;
+}
+
+.box-model .border {
+    background-color: antiquewhite;
+}
+
+.box-model .margin {
+    background-color:darksalmon;
+}

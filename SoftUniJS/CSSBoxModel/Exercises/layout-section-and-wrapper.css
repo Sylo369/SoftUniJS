@@ -1,0 +1,22 @@
+body {
+    margin: 0px;
+}
+
+.section-box {
+    border: solid 2px green;
+    padding: 15px;
+}
+
+.row {
+    border: solid 2px;
+    padding: 20px 40px;
+    margin: 20px;
+}
+
+.content{
+    border: solid 2px blue;
+    padding: 25px;
+    margin: 20px 40px;
+    font-size: 20px;
+    font-weight: bold;
+}

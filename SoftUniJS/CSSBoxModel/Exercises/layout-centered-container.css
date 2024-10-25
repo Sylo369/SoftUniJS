@@ -1,0 +1,28 @@
+body {
+    margin: 0px;
+}
+.box-model {
+    display:block;
+    border: solid 2px seagreen;
+    padding: 10px 80px
+}
+
+.content-box {
+    display:block;
+    border: solid 2px blue;
+    margin: 20px 50px;
+    padding: 20px;
+}
+
+.item {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    border: solid 2px #000;
+    margin: 20px 10px;
+    padding: 20px 10px;
+}
+
+p {
+    margin: 0;
+}
