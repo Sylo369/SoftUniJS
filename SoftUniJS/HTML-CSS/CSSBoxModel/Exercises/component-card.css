@@ -1,7 +1,60 @@
 * {
     margin: 0px;
 }
+body{
+    background-color: #ebebeb;
+}
 
 .component-card {
-    to be continued
+    display: block;
+    width: 400px;
+    height: 600px;
+    border: 1px solid #ebebeb;
+    background-color: white;
+    margin: 3vh auto;
+    border-radius: 8px;
+    overflow: hidden;
+
+
+}
+
+.image-holder {
+    
+}
+
+.aurora-img {
+    width: 100%;
+}
+
+.text-holder{
+    padding: 0px 25px;
+    color: #383838;
+}
+
+.text-holder h2 {
+    
+ margin-top: 15px;
+}
+
+.text-holder p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.bottom-part{
+       overflow: hidden;
+       text-overflow:ellipsis;
+}
+
+.bottom-part p {
+    font-weight:600;
+    margin-top: 40px;
+}
+
+.bottom-part a {
+    font-size: 1.2rem;
+    font-style: italic;
+ 
+
+  white-space:nowrap;
 }
