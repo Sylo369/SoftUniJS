@@ -17,8 +17,7 @@ html {
 
 .text-container p{
     padding: 20px 0px; /*This padding must be finished*/
-    
-    
+    line-height: 29px;
 }
 
 .text-header p {
