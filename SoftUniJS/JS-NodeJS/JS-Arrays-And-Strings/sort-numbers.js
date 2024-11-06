@@ -1,23 +1,23 @@
-function sort(array){
-const sortedArr = [];
+function sort(array) {
+  const sortedArr = [];
+  let arrayLength = array.length;
+  const jaggedArray = array.sort(function (a, b) {
+    return a - b;
+  });
 
-   array.sort(function (a, b) {
-      return a - b;
-    });
-console.log(`Sorted input array is ${array}`)
- for (let index = 0; index < array.length; index++) {
-  if(index % 2 == 0)
-  {
-    const element = array.pop();
-    sortedArr.push(element);
+  for (let index = 0; index < arrayLength; index++) {
+    if (index % 2 == 0) {
+      const element = jaggedArray.shift();
+
+      sortedArr.push(element);
+    } else {
+      const element = jaggedArray.pop();
+
+      sortedArr.push(element);
+    }
   }
-  else{
-    const element = array.shift();
-     sortedArr.push(element);
-  }   
- }
- console.log(sortedArr)
- return sortedArr;
+  
+  return sortedArr;
 }
 
 sort([1, 65, 3, 52, 48, 63, 31, -3, 18, 56]); ///NEEDS TO BE FINISHED
