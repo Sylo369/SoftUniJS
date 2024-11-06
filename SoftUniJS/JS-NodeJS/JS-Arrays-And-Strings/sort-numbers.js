@@ -20,6 +20,6 @@ function sort(array) {
   return sortedArr;
 }
 
-sort([1, 65, 3, 52, 48, 63, 31, -3, 18, 56]); ///NEEDS TO BE FINISHED
+sort([1, 65, 3, 52, 48, 63, 31, -3, 18, 56]);
 
 //-3,  1,  3, 18, 31, 48, 52, 56, 63, 65
